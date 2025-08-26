@@ -13,9 +13,9 @@ variable "sg_tags" {
 }
 
 variable "project" {
-  type = var.project
+  type = string
 }
 
 variable "environment" {
-  type = var.environment
+  type = string
 }
