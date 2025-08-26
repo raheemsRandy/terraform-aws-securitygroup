@@ -4,6 +4,7 @@ variable "sg_name" {
 
 variable "sg_description" {
   type = string
+  default = {}
 }
 
 variable "sg_tags" {
