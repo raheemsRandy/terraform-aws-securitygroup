@@ -3,12 +3,12 @@ variable "sg_name" {
 }
 
 variable "sg_description" {
-  type = string
+  # type = string
   default = {}
 }
 
 variable "sg_tags" {
-  type = map(string)
+  # type = map(string)
   default = {}
 }
 
